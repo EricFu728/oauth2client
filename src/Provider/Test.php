@@ -54,11 +54,6 @@ class Test extends AbstractProvider
 
     public function getResourceOwnerDetailsUrl(AccessToken $token)
     {
-//        $fields = array_merge($this->defaultUserFields, $this->userFields);
-//        return 'https://www.googleapis.com/plus/v1/people/me?' . http_build_query([
-//            'fields' => implode(',', $fields),
-//            'alt'    => 'json',
-//        ]);
         return 'http://localhost/oauth2server/resource.php';
     }
 
