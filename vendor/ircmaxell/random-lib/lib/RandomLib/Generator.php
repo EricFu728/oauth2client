@@ -110,7 +110,7 @@ class Generator {
         self::CHAR_DIGITS => '0123456789',
         self::CHAR_UPPER_HEX => 'ABCDEF',
         self::CHAR_LOWER_HEX => 'abcdef',
-        self::CHAR_BASE64 => '+/',
+        self::CHAR_BASE64 => '/',
         self::CHAR_SYMBOLS => '!"#$%&\'()* +,-./:;<=>?@[\]^_`{|}~',
         self::CHAR_BRACKETS => '()[]{}<>',
         self::CHAR_PUNCT => ',.;:',
